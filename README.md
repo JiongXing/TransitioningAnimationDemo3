@@ -14,7 +14,7 @@ presentedViewController.modalPresentationStyle = UIModalPresentationCustom;
 ```objc
 @interface MyPresentationController : UIPresentationController <UIViewControllerTransitioningDelegate>
 ```
-重写有四个重要的生命周期方法，分别是present开始、完成，dismiss开始、完成：
+重写四个重要的生命周期方法，分别是present开始、完成，dismiss开始、完成：
 ```objc
 - (void)presentationTransitionWillBegin;
 - (void)presentationTransitionDidEnd:(BOOL)completed;
